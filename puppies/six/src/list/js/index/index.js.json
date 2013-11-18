@@ -1,6 +1,0 @@
-{
-    "type": "volatile",
-    "files": [
-        "src/js/index/index.js"
-    ]
-}

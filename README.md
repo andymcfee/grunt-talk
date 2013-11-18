@@ -3,18 +3,20 @@ Grunt.js
 
 Topics Covered
 --------------
-
- * Installation
- * Simple Tasks
- * Multi Tasks
- * Watching
- * Complex Tasks (building own plugin)
- * Other Things that Use Grunt.js
+  - Grunt Overview
+  - Grunt Requirements
+  - Clean
+  - Copy
+  - Compile
+  - Build
+  - Other Plugins
+  - Other Tools
+  - Boston Terriers
 
 Slides
 ------
 
-http://helloandre.github.io/grunt/
+http://andymcfee.github.io/grunt-talk/
 
 License - WTFPL
 ---------------
