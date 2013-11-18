@@ -1,10 +1,12 @@
 module.exports = function(grunt) {
   grunt.initConfig({
 
-    clean: ["dist"],
+    clean: {
+      dist: ["dist"]
+    },
 
     copy: {
-      main: {
+      dist: {
         expand: true,
         cwd: 'src/',
         src: '**',

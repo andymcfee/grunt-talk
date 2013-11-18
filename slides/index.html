@@ -248,7 +248,7 @@
   <p>Couple of things:</p>
   <ul>
     <li><code>--save-dev</code> will add the plugin to the <code>package.json</code> file automagically</li>
-    <li>You still need to add it manually to <code>Gruntfile.json</code></li>
+    <li>You still need to add it manually to <code>Gruntfile.js</code></li>
     <li>Any plugin with <code>-contrib-</code> in its name is an offical plugin maintained by the grunt core team.</li>
   </ul>
 </section>
@@ -345,7 +345,9 @@
   module.exports = function(grunt) {
     grunt.initConfig({
 
-      clean: ["dist"],
+      clean: {
+        dist: ["dist"]
+      },
 
       copy: {
         main: {
@@ -574,7 +576,7 @@
   <h1>HURRY UP</h1>
   <img src="images/bostons/boston-derp.jpg">
   <h3>This is supposed to be a short talk</h3>
-  <p><small>No more example bostons. :(</small></p>
+  <p><small>No more example bostons :(</small></p>
 </section>
 
 <section>
