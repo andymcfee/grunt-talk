@@ -48,6 +48,8 @@
     .reveal pre code {
       max-height: 500px;
     }
+
+
     </style>
   </head>
 
@@ -217,7 +219,7 @@
 
 <section>
 
-  <h2>.gitignore</h2>
+  <p>.gitignore</p>
 
   <pre><code class="bash">
   node_modules
@@ -241,6 +243,7 @@
 <section>
 
   <h2>Install to project</h2>
+
   <pre><code>
   npm install --save-dev grunt-contrib-copy
   </code></pre>
@@ -379,7 +382,7 @@
   <h3>Result</h3>
   <pre><code>
   $ grunt clean
-  Running "clean:0" (clean) task
+  Running "clean:dist" (clean) task
   Cleaning dist...OK
 
   Done, without errors.
@@ -554,7 +557,7 @@
 
   <pre><code>
   $ grunt
-  Running "clean:0" (clean) task
+  Running "clean:dist" (clean) task
   Cleaning dist...OK
 
   Running "less:dist" (less) task

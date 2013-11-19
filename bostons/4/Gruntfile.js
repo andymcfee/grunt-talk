@@ -1,7 +1,9 @@
 module.exports = function(grunt) {
   grunt.initConfig({
 
-    clean: ["dist"],
+    clean: {
+      dist: ["dist"]
+    },
 
     copy: {
       dist: {
