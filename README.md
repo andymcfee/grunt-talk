@@ -16,7 +16,7 @@ Topics Covered
 Slides
 ------
 
-http://andymcfee.github.io/grunt-talk/
+http://andymcfee.github.io/grunt-talk/slides/
 
 License - WTFPL
 ---------------
